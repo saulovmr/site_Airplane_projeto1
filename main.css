@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #737478;
+    color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: 'Lora', serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 48px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+    color: #182c61;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+    height: 180px;
+}
+
+.social-links img{
+    height: 36px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links p {
+    display: inline;
+    text-align: center;
+    color: #182c61;
+}
+
+#contact .container {
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress p {
+    text-align: left;
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+iframe {
+    width: fit-content;
+}
+
+form button{
+    background-color: #3b3b3b ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #7c7c81;
+}
+
+input:focus, textarea:focus{
+    outline-color: #212123;
+}
+
+.photos ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: inline;
+    text-decoration: none;
+}
+
+.photos li {
+    text-decoration: none;
+}
+
+.photos img {
+    width: 320px;
+    height: 320px;
+    padding: 8px;
+    justify-content: flex-end;
+}
+
+footer{
+    background-color: #737478;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
